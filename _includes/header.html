@@ -4,7 +4,7 @@
       <div class="col col-12">
         <div class="header-box">
           <div class="logo-title">
-            <a href="{{site.baseurl}}/" class="logo-text">Galada</a>
+            <a href="{{site.baseurl}}/" class="logo-text">{{site.title}}</a>
           </div>
 
           <nav class="nav-menu">
@@ -12,9 +12,15 @@
             <ul class="menu-list">
               <li class="menu-item"><a href="{{site.baseurl}}/" class="menu-link">Home</a></li>
               {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
+                {% unless page.name == '404.html' %} <!-- default: page.name == 'tags.html' or page.name == '404.html'-->
               {% if page.title %}
-              <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link">{{ page.title }}</a></li>
+                {% if page.title == 'Style Guide' %}
+                  {% if site.url == 'http://localhost:4000' %}
+                    <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link">{{ page.title }}</a></li>
+                  {% endif %}
+                {% else %}
+                  <li class="menu-item"><a href="{{ page.url | prepend: site.baseurl }}" class="menu-link">{{ page.title }}</a></li>
+                {% endif %}
               {% endif %}
                 {% endunless %}
               {% endfor %}
