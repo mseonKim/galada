@@ -1,3 +1,3 @@
 ### Archive
 
-powered by [Galada](https://artemsheludko.github.io/galada/)
+powered by [Galada](https://github.com/artemsheludko/galada)
