@@ -3,7 +3,7 @@
 
 title: Archive
 description: 콘텐츠와 개발, 그리고 다양한 기록을 보관하는 블로그입니다. # this means to ignore newlines until "baseurl:"
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
@@ -65,7 +65,7 @@ sass:
 #-------------------------------
 # Exclude from processing.
 exclude:
-    - backup/
+    - samples/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
