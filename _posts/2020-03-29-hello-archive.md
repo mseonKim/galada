@@ -1,7 +1,7 @@
 ---
 title: 블로그를 시작하게 된 계기
 layout: post
-date: '2020-03-29 22:05:55 -0800'
+date: '2020-03-29 23:30:00'
 image: null
 tags:
 - 잡담

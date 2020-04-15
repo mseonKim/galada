@@ -5,6 +5,7 @@ date: '2020-04-13 01:30:00'
 tags:
 - UE4
 - Steam
+image: post/ue4-steam-integration/ue4-steam-integration.png
 ---
 
 UE4에서 Steam 업적 연동을 하기 위해 여러 자료를 찾아봤지만, 예상치 못한 오류가 발생해서 애를 먹었었다. 이 글에선 UE 4.22에서 Steam SDK 최신 버전을 연동하는 법, 그중 특히 업적과 내가 겪었던 이슈들에 대해서 정리해본다.<br>
