@@ -66,6 +66,7 @@ sass:
 # Exclude from processing.
 exclude:
     - samples/
+    - psd/
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
